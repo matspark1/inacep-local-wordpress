@@ -7,8 +7,8 @@ function load_css(){
 
 add_action( 'wp_enqueue_scripts', 'load_css' );
 
-function load_js(){
+function load_mobile_js(){
     wp_register_script( 'script', get_template_directory_uri() . '/js/script.js', 'jquery', false, true );
     wp_enqueue_script( 'script' );
 }
-add_action( 'wp_enqueue_scripts', 'load_js' );
+add_action( 'wp_enqueue_scripts', 'load_mobile_js' );
