@@ -12,7 +12,7 @@ get_header();
 <div class="app">
     <div class="advocacy-hero">
         <h1>Advocacy Fund</h1>
-        <a href="#">Contribute Today</a>
+        <a href="<?php echo get_permalink(get_page_by_title('Donate Advocacy')); ?>">Contribute Today</a>
     </div>
     <div class="iempac-box-container">
         <img src="<?php echo get_template_directory_uri(); ?>/images/home-hero.jpg" alt="" />
@@ -55,7 +55,7 @@ get_header();
         <img src="<?php echo get_template_directory_uri(); ?>/images/home-hero.jpg" alt="" />
     </div>
     <div class="iempac-join">
-        <a href="#" class="join-btn">Contribute Today</a>
+        <a href="<?php echo get_permalink(get_page_by_title('Donate Advocacy')); ?>" class="join-btn">Contribute Today</a>
     </div>
 </div>
 
