@@ -1,13 +1,14 @@
 <?php
 /*
  * Template Name: Contact
-*/
+ */
 ?>
 
 <?php
 $page_title = 'Contact Us';
 get_header();
 ?>
+
 
 <div class="app">
     <div class="contact-header">
@@ -48,41 +49,11 @@ get_header();
             </div>
         </div>
 
-        <!-- holder for input -->
-        <div class="contact-form-parent">
-            <form>
-                <!-- email and name will be side by side -->
-                <div class="name-email-input">
-                    <!-- name -->
-                    <div class="contact-name">
-                        <label for="cFName">Name</label>
-                        <input type="text" name="cFName" id="cFName" />
-                    </div>
-                    <!-- email -->
-                    <div class="contact-email">
-                        <label for="cFEmail">Email Address</label>
-                        <input type="text" name="cFEmail" id="cFEmail" />
-                    </div>
-                </div>
+        <?php echo do_shortcode('[contact-form-7 id="ae8622d" title="Contact Us Form"]'); ?>
 
-                <!-- subject -->
-                <div class="contact-subject">
-                    <label for="cFSubject">Subject</label>
-                    <input type="text" name="cFSubject" id="cFSubject" />
-                </div>
 
-                <!-- message -->
-                <div class="contact-message">
-                    <label for="cFMessage">Message</label>
-                    <textarea id="cFMessage"></textarea>
-                </div>
 
-                <!-- submit button -->
-                <div class="contact-submit-btn">
-                    <button id="contactBtn">Send Message</button>
-                </div>
-            </form>
-        </div>
+    </div>
     </div>
 
     <div class="contact-mobile">
@@ -116,4 +87,4 @@ get_header();
     </div>
 </div>
 
-<?php get_footer();?>
+<?php get_footer(); ?>
