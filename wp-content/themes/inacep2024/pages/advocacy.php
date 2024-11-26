@@ -15,7 +15,7 @@ get_header();
         <a href="<?php echo get_permalink(get_page_by_title('Donate Advocacy')); ?>">Contribute Today</a>
     </div>
     <div class="iempac-box-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/home-hero.jpg" alt="" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/advTwo.png" alt="" />
         <div class="iempac-text-box">
             <p>
                 Over the past several years, it has become clear that additional
@@ -29,7 +29,7 @@ get_header();
         </div>
     </div>
     <div class="iempac-box-container-mobile">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/home-hero.jpg" alt="" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/advOne.jpg" alt="" />
         <div class="iempac-text-box">
             <p>
                 To demonstrate our commitment to advocacy, INACEP made a significant
@@ -52,7 +52,7 @@ get_header();
                 and for being part of our EM family.
             </p>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/home-hero.jpg" alt="" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/advOne.jpg" alt="" />
     </div>
     <div class="iempac-join">
         <a href="<?php echo get_permalink(get_page_by_title('Donate Advocacy')); ?>" class="join-btn">Contribute Today</a>
