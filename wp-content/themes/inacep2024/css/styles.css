@@ -1652,6 +1652,24 @@ footer img {
     background-color: #d9d9d9;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+.donate-link-holder .donate-adv-type{
+    width: 390px;
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/advocacy-hero.png); !important;
+}
+
+.donate-link-holder .donate-iempac-type{
+    width: 390px;
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/IEMPAC_hero.jpg); !important;
+}
+
 .main-donate-holder .donate-link-holder .box:hover {
     border: solid 4px #0065bd;
 }
