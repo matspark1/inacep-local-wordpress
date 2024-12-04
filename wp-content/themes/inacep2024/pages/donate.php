@@ -21,7 +21,9 @@ get_header();
         <!-- donation link holder -->
         <div class="donate-link-holder">
             <!-- donate iempac type box -->
-            <div class="donate-iempac-type box"></div>
+            <div class="donate-iempac-type box">
+
+            </div>
             <!-- button leading to donation type -->
             <button class="donate-type-btn"><a href="<?php echo get_permalink(get_page_by_title('Donate IEMPAC')); ?>">IEMPAC</a></button>
             <!-- end of donate-link-holder -->
@@ -30,7 +32,8 @@ get_header();
         <!-- donation link holder -->
         <div class="donate-link-holder">
             <!-- donate iempac type box -->
-            <div class="donate-iempac-type box"></div>
+            <div class="donate-adv-type box">
+            </div>
             <!-- button leading to donation type -->
             <button class="donate-type-btn"><a href="<?php echo get_permalink(get_page_by_title('Donate Advocacy')); ?>">Advocacy Fund</a></button>
             <!-- end of donate-link-holder -->

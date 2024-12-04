@@ -15,67 +15,68 @@ get_header();
     </div>
 
     <!-- form - holds all inputs -->
-    <form class="donate-form">
+    <form method="post" action="#">
+        <div class="donate-form">
+            <!-- form inputs -->
+            <div class="donate-inputs">
+                <!-- first name -->
+                <label for="fName">First Name</label>
+                <input type="text" name="fName" required id="fName">
 
-        <!-- form inputs -->
-        <div class="donate-inputs">
-            <!-- first name -->
-            <label for="fName">First Name</label>
-            <input type="text" required>
+                <!-- last name -->
+                <label for="lName">Last Name</label>
+                <input type="text" name="lName" required id="lName">
 
-            <!-- last name -->
-            <label for="lName">Last Name</label>
-            <input type="text" required>
+                <!-- street address -->
+                <label for="sAddress">Street Address</label>
+                <input type="text" name="sAddress" required id="sAddress">
 
-            <!-- street address -->
-            <label for="sAddress">Street Address</label>
-            <input type="text" required>
+                <!-- city -->
+                <label for="city">City</label>
+                <input type="text" name="city" required id="city">
 
-            <!-- city -->
-            <label for="city">City</label>
-            <input type="text" required>
+                <!-- state -->
+                <label for="state">State</label>
+                <input type="text" name="state" required id="state">
 
-            <!-- state -->
-            <label for="sAddress">State</label>
-            <input type="text" required>
+                <!-- zip -->
+                <label for="zip">Zip Code</label>
+                <input type="number" name="zip" required id="zip">
+            </div>
 
-            <!-- zip -->
-            <label for="sAddress">Zip Code</label>
-            <input type="number" required>
+            <!-- form inputs -->
+            <div class="donate-inputs">
+                <!-- donation amount -->
+                <label for="dAmount">Donation Amount</label>
+                <input type="number" name="dAmount" required id="dAmount">
+
+                <!-- card number -->
+                <label for="cNumber">Card Number</label>
+                <input type="number" name="cNumber" required id="cNumber">
+
+                <!-- security code -->
+                <label for="sCode">CVC / Security Code</label>
+                <input type="number" name="sCode" required id="sCode">
+
+                <!-- expiration month -->
+                <label for="eMonth">Expiration Month</label>
+                <input type="text" name="eMonth" required id="eMonth">
+
+                <!-- expiration year -->
+                <label for="eYear">Expiration Year</label>
+                <input type="text" name="eYear" required id="eYear">
+
+                <!-- email -->
+                <label for="eAddress">Email Address</label>
+                <input type="email" name="eAddress" required id="eAddress">
+            </div>
         </div>
 
-        <!-- form inputs -->
-        <div class="donate-inputs">
-            <!-- donation amount -->
-            <label for="dAmount">Donation Amount</label>
-            <input type="number" required>
-
-            <!-- card number -->
-            <label for="cNumber">Card Number</label>
-            <input type="number" required>
-
-            <!-- security code -->
-            <label for="sCode">CVC /Security Code</label>
-            <input type="number" required>
-
-            <!-- city -->
-            <label for="eMonth">Expiration Month</label>
-            <input type="text" required>
-
-            <!-- state -->
-            <label for="eYear">Expiration Year</label>
-            <input type="text" required>
-
-            <!-- zip -->
-            <label for="eAddress">Email Address</label>
-            <input type="email" required>
+        <!-- submit donation -->
+        <div class="donate-submit-btn" >
+            <button type="submit" id="iempacBtn">Submit Donation</button>
         </div>
     </form>
-    <!-- submit donation -->
-    <div class="donate-submit-btn" >
-        <button id="iempacBtn">Submit Donation</button>
-    </div>
-
 </div>
 
 <?php get_footer();?>
