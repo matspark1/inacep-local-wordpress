@@ -19,7 +19,6 @@ get_header();
         <div class="iempac-text-box">
             <p>
                 <?php echo get_post_meta(get_the_ID(), 'IEMPAC Card 1', true); ?>
-
             </p>
         </div>
     </div>

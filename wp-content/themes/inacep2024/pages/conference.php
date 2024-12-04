@@ -9,11 +9,12 @@ $page_title = 'Conference';
 get_header();
 ?>
 
+
 <div class="app">
     <div class="conference">
         <div class="conference-header">
-            <h2>2024 INACEP Conference</h2>
-            <h1>what should i put here</h1>
+            <h2>Conference</h2>
+            <h1>2024 INACEP Conference</h1>
         </div>
         <div class="conference-hero">
             <div class="hero"></div>
@@ -46,10 +47,10 @@ get_header();
                     </h3>
                     <h4></h4>
                     <h4>
-                        <a href="#">Conference Registration</a>
+                        <a href="<?php echo get_permalink(get_page_by_title('Conference Registration')); ?>">Conference Registration</a>
                     </h4>
                     <h4>
-                        <a href="#">Exhibitor/Sponsor Registration</a>
+                        <a href="<?php echo get_permalink(get_page_by_title('Exhibitor/Sponsor Registration')); ?>">Exhibitor/Sponsor Registration</a>
                     </h4>
                     <h4>We hope to see you there!</h4>
                 </div>

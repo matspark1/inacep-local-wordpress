@@ -23,13 +23,13 @@ get_header();
             <h2>Newsletter Spotlight</h2>
             <div class="timeframe">
                 <i class="fa-regular fa-clock"></i>
-                <p>Spring / Summer 2024</p>
+                <p>Fall 2024</p>
             </div>
         </div>
         <div class="current-empulse-header-mobile">
             <div class="timeframe">
                 <i class="fa-regular fa-clock"></i>
-                <p>Spring / Summer 2024</p>
+                <p>Fall 2024</p>
             </div>
             <h2>Newsletter Spotlight</h2>
         </div>
@@ -43,15 +43,15 @@ get_header();
 
         <div class="pdf">
             <object
-                data="<?php echo get_template_directory_uri(); ?>/images/EMpulse-spring-summer-2024.pdf"
+                data="<?php echo get_template_directory_uri(); ?>/images/pdfs/EMPulse/2024-Fall-EMpulse.pdf"
                 type="application/pdf"
             ></object>
         </div>
         <div class="btns">
-            <a href="<?php echo get_template_directory_uri(); ?>/images/EMpulse-spring-summer-2024.pdf" target="_blank"
+            <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/EMPulse/2024-Fall-EMpulse.pdf" target="_blank"
             >Full View <i class="fa-solid fa-arrow-right"></i
                 ></a>
-            <a href="<?php echo get_template_directory_uri(); ?>/images/EMpulse-spring-summer-2024.pdf" download="EMPulse.pdf"
+            <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/EMPulse/2024-Fall-EMpulse.pdf" download="EMPulse-Fall-2024.pdf"
             >Download <i class="fa-solid fa-download"></i
                 ></a>
         </div>
@@ -61,7 +61,17 @@ get_header();
         <h1>EMPulse Archives</h1>
     </div>
     <div class="archives">
-        <a href="#" download="#" class="archives-download">
+        <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/EMPulse/archives/EMpulse-spring-summer-2024.pdf" target="_blank" class="archives-download">
+            <div class="archives-box">
+                <div class="header">
+                    <i class="fa-regular fa-calendar"></i>
+                    <h2>Spring / Summer 2024</h2>
+                </div>
+
+                <i class="fa-solid fa-download downloadbtn"></i>
+            </div>
+        </a>
+        <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/EMPulse/archives/EMpulse-spring-summer-2024.pdf" target="_blank" class="archives-download">
             <div class="archives-box">
                 <div class="header">
                     <i class="fa-regular fa-calendar"></i>
@@ -71,7 +81,7 @@ get_header();
                 <i class="fa-solid fa-download downloadbtn"></i>
             </div>
         </a>
-        <a href="#" download="#" class="archives-download">
+        <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/EMPulse/archives/EMpulse-spring-summer-2024.pdf" target="_blank" class="archives-download">
             <div class="archives-box">
                 <div class="header">
                     <i class="fa-regular fa-calendar"></i>
@@ -81,7 +91,7 @@ get_header();
                 <i class="fa-solid fa-download downloadbtn"></i>
             </div>
         </a>
-        <a href="#" download="#" class="archives-download">
+        <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/EMPulse/archives/EMpulse-spring-summer-2024.pdf" target="_blank" class="archives-download">
             <div class="archives-box">
                 <div class="header">
                     <i class="fa-regular fa-calendar"></i>
@@ -91,7 +101,7 @@ get_header();
                 <i class="fa-solid fa-download downloadbtn"></i>
             </div>
         </a>
-        <a href="#" download="#" class="archives-download">
+        <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/EMPulse/archives/EMpulse-spring-summer-2024.pdf" target="_blank" class="archives-download">
             <div class="archives-box">
                 <div class="header">
                     <i class="fa-regular fa-calendar"></i>
@@ -101,7 +111,7 @@ get_header();
                 <i class="fa-solid fa-download downloadbtn"></i>
             </div>
         </a>
-        <a href="#" download="#" class="archives-download">
+        <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/EMPulse/archives/EMpulse-spring-summer-2024.pdf" target="_blank" class="archives-download">
             <div class="archives-box">
                 <div class="header">
                     <i class="fa-regular fa-calendar"></i>

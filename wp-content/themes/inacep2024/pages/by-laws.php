@@ -9,8 +9,9 @@ $page_title = 'By-Laws';
 get_header();
 ?>
 
+
 <div class="app">
-    <div class="empulse-header">
+    <div class="by-laws-header">
         <h1>INACEP By-Laws</h1>
         <p>
             Explore the operational structure and policies of Indiana ACEP,
@@ -19,18 +20,18 @@ get_header();
         </p>
     </div>
 
-    <div class="current-empulse">
+    <div class="by-laws-view">
         <div class="pdf">
             <object
-                data="<?php echo get_template_directory_uri(); ?>/images/INACEP-By-Laws.pdf"
-                type="application/pdf"
+                    data="<?php echo get_template_directory_uri(); ?>/images/pdfs/INACEP-By-Laws.pdf"
+                    type="application/pdf"
             ></object>
         </div>
         <div class="btns">
-            <a href="<?php echo get_template_directory_uri(); ?>/images/INACEP-By-Laws.pdf" target="_blank"
+            <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/INACEP-By-Laws.pdf" target="_blank"
             >Full View <i class="fa-solid fa-arrow-right"></i
                 ></a>
-            <a href="<?php echo get_template_directory_uri(); ?>/images/INACEP-By-Laws.pdf" download="INACEP-By-Laws.pdf"
+            <a href="<?php echo get_template_directory_uri(); ?>/images/pdfs/INACEP-By-Laws.pdf" download="INACEP-By-Laws.pdf"
             >Download <i class="fa-solid fa-download"></i
                 ></a>
         </div>
